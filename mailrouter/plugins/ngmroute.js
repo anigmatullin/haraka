@@ -7,9 +7,6 @@ const functions = require("./functions");
 const cfgrouting = 'routing.json';
 const cfgrelays  = 'relays.json';
 
-const url_delivery = "http://localhost:3000/api/delivery";
-const url_conn = "http://localhost:3000/api/connection";
-const url_queue = "http://localhost:3000/api/queue";
 
 const Route = require('./Route');
 const RoutingTable = require('./RoutingTable');
